@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.ts"],"names":[],"mappings":"yFACE,AAAI,EAAe,KAAU,IACgC,AAAtD,AAAU,EAAc,KAAK,AAAU,EAAc","sourceRoot":"assemblyscript:///","sourceContents":["export function fibonacci(sequenceFor: i32): i32 {\n  if (sequenceFor <= 1) return 1;\n  return fibonacci(sequenceFor - 1) + fibonacci(sequenceFor - 2);\n}\n"]}
